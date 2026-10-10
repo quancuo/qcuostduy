@@ -3,7 +3,7 @@ def total_minutes(days, minutes_per_day):
 
 
 def minutes_to_hours(minutes):
-    return minutes / 60
+    return round(minutes / 60, 2)
 
 
 minutes = total_minutes(5, 40)
