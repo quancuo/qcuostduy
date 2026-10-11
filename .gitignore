@@ -1,0 +1,11 @@
+# Python 自动生成的缓存目录
+__pycache__/
+
+# * 表示任意文件名；.pyc 是 Python 缓存文件
+*.pyc
+
+# venv 是 virtual environment（虚拟环境）的缩写
+.venv/
+
+# env 是 environment（环境）的缩写；这里指本地配置文件
+.env
