@@ -1,0 +1,3 @@
+pandas==2.3.3
+notebook==7.4.7
+ipykernel==6.31.0

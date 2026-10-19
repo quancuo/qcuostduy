@@ -9,3 +9,6 @@ __pycache__/
 
 # env 是 environment（环境）的缩写；这里指本地配置文件
 .env
+
+# Jupyter 自动生成的检查点（checkpoint）备份目录
+.ipynb_checkpoints/
