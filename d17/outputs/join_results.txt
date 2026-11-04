@@ -1,0 +1,34 @@
+A
+ record_id asset       date  price asset_name
+       101     A 2026-10-12  100.0    Asset A
+       102     A 2026-10-13  110.0    Asset A
+       103     A 2026-10-14   99.0    Asset A
+
+INNER
+ record_id asset       date  price asset_name
+       101     A 2026-10-12  100.0    Asset A
+       102     A 2026-10-13  110.0    Asset A
+       103     A 2026-10-14   99.0    Asset A
+       104     B 2026-10-12  200.0    Asset B
+       105     B 2026-10-13  190.0    Asset B
+
+LEFT
+ record_id asset       date  price asset_name
+       101     A 2026-10-12  100.0    Asset A
+       102     A 2026-10-13  110.0    Asset A
+       103     A 2026-10-14   99.0    Asset A
+       104     B 2026-10-12  200.0    Asset B
+       105     B 2026-10-13  190.0    Asset B
+       106     C 2026-10-12   50.0       <NA>
+
+DUPLICATE
+ record_id asset       date  price          asset_name  demo_id
+       101     A 2026-10-12  100.0             Asset A      1.0
+       101     A 2026-10-12  100.0 Asset A alternative      2.0
+       102     A 2026-10-13  110.0             Asset A      1.0
+       102     A 2026-10-13  110.0 Asset A alternative      2.0
+       103     A 2026-10-14   99.0             Asset A      1.0
+       103     A 2026-10-14   99.0 Asset A alternative      2.0
+       104     B 2026-10-12  200.0             Asset B      3.0
+       105     B 2026-10-13  190.0             Asset B      3.0
+       106     C 2026-10-12   50.0                <NA>      NaN
